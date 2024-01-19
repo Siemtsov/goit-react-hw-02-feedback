@@ -1,7 +1,7 @@
 import React from 'react';
 import { Wrapper, Button } from './feedbackOptions.styled';
 
-export const feedbackOptions = ({ options, onFeedback }) => {
+export const FeedbackOptions = ({ options, onFeedback }) => {
   return (
     <Wrapper>
       {options.map(option => (
